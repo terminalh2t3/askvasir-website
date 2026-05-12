@@ -104,6 +104,14 @@ section:nth-child(even) {
   letter-spacing: 2px;
   text-decoration: none;
   color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo-img {
+  height: 36px;
+  width: auto;
 }
 
 .nav-logo .accent {
@@ -167,6 +175,14 @@ section:nth-child(even) {
   position: relative;
   overflow: hidden;
   padding-top: var(--nav-height);
+}
+
+.hero-bg-image {
+  position: absolute;
+  inset: 0;
+  background: url('images/hero-bg.jpg') center 40%/cover no-repeat;
+  opacity: 0.6;
+  z-index: 0;
 }
 
 .hero-content {
